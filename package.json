@@ -1,0 +1,17 @@
+{
+  "name": "onedbperuser",
+  "version": "0.0.1",
+  "description": "Cloudant One Database Per User Service",
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "cloudant": "^1.0.0-beta3",
+    "cors": "^2.5.2",
+    "express": "4.8.5",
+    "node-uuid": "^1.4.1",
+    "sendgrid": "^1.4.0",
+    "twilio": "^1.9.0"
+  },
+  "engines": {
+    "node": "0.10.26"
+  }
+}
