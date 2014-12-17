@@ -24,7 +24,7 @@ This application works out-of-the box on IBM's BlueMix platofrom. Simply:
 * signup for a BlueMix account
 * create a new Node.js app
 * add a Cloudant Service
-* configure a Twilio Service, or a SendGrid email service
+* configure a Twilio Service, and/or a SendGrid email service
 * upload the code
 
 You will need to sign up for a Twilio account at https://www.twilio.com/ and/or a SendGrid account at https://sendgrid.com/.
@@ -41,6 +41,8 @@ Parameters:
 * mobile - the mobile number of the user in international format e.g. +447123456789
 * email - the email addres of the user e.g. glynn.bird@uk.ibm.com
 * appname - the name of the application e.g. myapp
+
+One of mobile and email must be supplied.
 
 Calling this API will generate a registration request and return to you:
 
